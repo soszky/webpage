@@ -1,0 +1,202 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url("assets/back03.png");
+}
+.container1 {    
+    background-image: url("assets/back2.jpg");
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+header {
+    height: 100%;
+}
+h1 {
+    text-align: center;
+}
+.logo {
+   display: block;
+   padding: 90px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 45%;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.nav ul {
+    list-style: none;
+    align-content: stretch;
+    background-color: #071320;
+    overflow: auto;
+}   
+.nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+} 
+.nav a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(190, 172, 116, 1);
+}
+
+.nav a:hover {
+    background-color: #005F5F;
+    transition: .3s background-color;
+}
+/* li a:hover {
+    background-color: #081020;
+    color: white;
+} */
+
+.d-block {
+    margin-top: 60px;
+}
+
+.about {
+    color: rgba(190, 172, 116, 1);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 220px;
+    text-align: center;
+    margin-right: 220px;
+}
+.doYou {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 0.15em;
+    font-weight: bolder;
+}
+
+.moi {
+    padding: 40px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+
+.arrowDown {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.blogButton {
+    text-decoration: none;
+    color: rgba(190, 172, 116, 1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+}
+
+/* .head1 {
+    text-align: center;
+} */
+
+.fashion {
+    color: rgba(190, 172, 116, 1);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 200px;
+    margin-right: 80px;
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.dl {
+    color: rgba(190, 172, 116, 1);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.pas {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 0.15em;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.para {
+    margin-left: 40px;
+}
+
+.table {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 100px;
+    padding: 40px;
+    color: white;
+}
+
+.title a {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+}
+
+.title a:hover {
+    background-color: #005F5F;
+    transition: .3s background-color;
+}
+
+.text {
+    color: rgba(190, 172, 116, 1);
+    font-family: 'Raleway', sans-serif;
+}
+
+.zdj {
+    width: 350px;
+}
+
+.foot {
+    color: rgba(190, 172, 116, 1);
+    padding-top: 70px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .lglg {
+    
+} */
+
+
+@media screen and (min-width: 600px) {
+    .nav li {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    }
+    
+    .nav li {
+        display: inline-block;
+        margin-right: auto;
+    }
+}
