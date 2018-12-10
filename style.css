@@ -205,6 +205,24 @@ ul {
     justify-content: center;
 }
 
+.insta:hover {
+    background-color: rgba(190, 172, 116, 1);
+    border-radius: 50%;
+    width: 10px;
+}
+
+.fb:hover {
+    background-color: rgba(190, 172, 116, 1);
+    border-radius: 50%;
+    width: 10px;
+}
+
+.gh:hover {
+    background-color: rgba(190, 172, 116, 1);
+    border-radius: 50%;
+    width: 10px;
+    border: 2px;
+}
 
 .foot {
     color: rgba(190, 172, 116, 1);
