@@ -37,9 +37,10 @@ h1 {
 }
 .nav ul {
     list-style: none;
-    align-content: stretch;
-    background-color: #071320;
+    background-color: #09111a;
     overflow: auto;
+    align-content: stretch;
+
 }   
 .nav ul li {
     margin-left: 20px;
@@ -51,6 +52,7 @@ ul {
     margin: 0;
     padding: 15px;
     text-align: center;
+    display: block;
 } 
 .nav a {
     text-decoration: none;
@@ -62,10 +64,6 @@ ul {
     background-color: #005F5F;
     transition: .3s background-color;
 }
-/* li a:hover {
-    background-color: #081020;
-    color: white;
-} */
 
 .d-block {
     margin-top: 60px;
@@ -175,15 +173,64 @@ ul {
     width: 350px;
 }
 
-.foot {
-    color: rgba(190, 172, 116, 1);
-    padding-top: 70px;
-    font-family: 'Raleway', sans-serif;
+.blogPost {
+    background-color: whitesmoke;
+    margin-top: 130px;
+    width: 65%; 
+    margin-left: 17%;
 }
 
-/* .lglg {
-    
-} */
+.headBlog {
+    padding-top: 5%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+}
+
+.firstPara {
+    padding: 5%;
+    color: rgba(190, 172, 116, 1);
+}
+
+.blogBody {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.foot {
+    color: rgba(190, 172, 116, 1);
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 40px;
+    background-color:  #09111a;
+}
+
+.mail {
+    text-decoration: none;
+    color: rgba(190, 172, 116, 1);
+    font-weight: bold;
+}
+
+.lglg {
+   justify-content: flex-end;
+   display: flex; 
+   padding: 20px;
+   margin-right: 70px;
+}
+
+.fb, .insta, .gh {
+    padding: 30px;
+    margin-top: -130px;
+}
 
 
 @media screen and (min-width: 600px) {
